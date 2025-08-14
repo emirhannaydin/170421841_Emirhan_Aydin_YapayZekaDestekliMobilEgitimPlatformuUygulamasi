@@ -94,7 +94,6 @@ app.UseStaticFiles(new StaticFileOptions
     RequestPath = "/ProfilePictures"
 });
 
-app.UseHttpsRedirection();
 
 app.UseAuthentication();
 app.UseAuthorization();
